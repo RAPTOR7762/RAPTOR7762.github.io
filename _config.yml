@@ -1,3 +1,5 @@
-theme: minima
-plugins:
-  - jekyll-feed
+title: My Website
+description:
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-slate
