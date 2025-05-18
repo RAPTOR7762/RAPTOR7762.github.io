@@ -1,4 +1,3 @@
-<!-- Hamburger Dropdown Menu -->
 <style>
 .header-flex {
   display: flex;
@@ -8,7 +7,7 @@
   background: #fff;
   position: relative;
 }
-  
+
 .menu-btn {
   background: none;
   border: none;
@@ -44,14 +43,45 @@
 .menu-dropdown a:hover {
   background: #f5f5f5;
 }
+
+.menu-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.raptor-btn {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 0.5em;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.raptor-btn:hover {
+  background: #444;
+}
 </style>
 
-<div style="position: relative;">
-  <button class="menu-btn" onclick="toggleMenu()" aria-label="Open menu">&#9776;</button>
-  <div id="dropdownMenu" class="menu-dropdown">
-    <a href="/">Home</a>
-    <a href="/blog/">Blog</a>
-    <a href="https://raptor7762.github.io/fritzing-renumber-cons/">fritzing-renumber-cons</a>
+<div class="header-flex">
+  <span style="font-size: 1.5em; font-weight: bold;">
+    <a href="/" style="text-decoration:none; color:inherit;">{{ site.title }}</a>
+  </span>
+  <div class="menu-group">
+    <a class="raptor-btn" href="/">RAPTOR7762</a>
+    <div style="position: relative;">
+      <button class="menu-btn" onclick="toggleMenu()" aria-label="Open menu">&#9776;</button>
+      <div id="dropdownMenu" class="menu-dropdown">
+        <a href="/">Home</a>
+        <a href="/blog/">Blog</a>
+        <a href="https://raptor7762.github.io/fritzing-renumber-cons/">fritzing-renumber-cons</a>
+      </div>
+    </div>
   </div>
 </div>
 
