@@ -24,3 +24,13 @@ Fritzing isn’t trying to replace KiCad or EAGLE. It’s trying to bridge the g
 
 Most haters: They see a bad breadboard and say, "As useless as images!" and can't even get past the forst step!
 
+## The Issue
+
+![fz-bb-comparison.png](https://github.com/RAPTOR7762/RAPTOR7762.github.io/blob/main/assets/fz-bb-comparison.png)
+*The Generation gap: spaghetti VS neat wires
+
+Most haters only ever see the left side — tangled wires, inconsistent colors, zero logic. But that’s a user issue, not a tool issue.
+
+Then they say, "Schematic? Where?"
+
+Well, Fritzing ***has*** a schematic view; it's just that *they* see the 'spaghetti', and scoff.
